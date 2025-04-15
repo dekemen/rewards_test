@@ -1,0 +1,60 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.db
+*.sqlite3
+
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+db.sqlite3
+media/
+static/
+
+# Virtualenv
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Docker
+*.docker
+docker-compose.override.yml
+docker-compose.override.yaml
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# JetBrains
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# dotenv files (don't commit .env file)
+.env
+
+# mypy
+.mypy_cache/
+
+# Celery logs
+celerybeat-schedule
+celeryd.log
+
+# pyenv
+.python-version
